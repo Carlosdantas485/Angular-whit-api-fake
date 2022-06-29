@@ -2,27 +2,21 @@
   "cars": [
     {
       "id": 1,
-      "name": "Maria do Carmo",
-      "email": "maria@123",
-      "phone": "987654321",
-      "password": "senha",
-      "balance": 1000.0
+      "model": "BMW X7",
+      "color": "Preto",
+      "price": 455.95
     },
     {
       "id": 2,
-      "name": "Maria do Carmo",
-      "email": "maria@123",
-      "phone": "987654321",
-      "password": "senha",
-      "balance": 1000.0
+      "model": "Mercedes benz c180",
+      "color": "Azul",
+      "price": 194.9
     },
     {
       "id": 3,
-      "name": "Maria do Carmo",
-      "email": "maria@123",
-      "phone": "987654321",
-      "password": "senha",
-      "balance": 1000.0
+      "model": "Land Rover Range Rover Velar",
+      "color": "Branco",
+      "price": 377.38
     }
   ]
 }

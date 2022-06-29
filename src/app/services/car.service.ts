@@ -17,7 +17,7 @@ export class CarService {
 
   // Obtem todos os carros
   getCars(){
-    return this.httpClient.get<ICar[]>(`${BASE_URL}users/1`).toPromise();
+    return this.httpClient.get<ICar[]>(`${BASE_URL}cars`).toPromise();
      
   }
 
