@@ -1,0 +1,28 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Maria do Carmo",
+      "email": "maria@123",
+      "phone": "987654321",
+      "password": "senha",
+      "balance": 1000.0
+    },
+    {
+      "id": 2,
+      "name": "Maria do Carmo",
+      "email": "maria@123",
+      "phone": "987654321",
+      "password": "senha",
+      "balance": 1000.0
+    },
+    {
+      "id": 3,
+      "name": "Maria do Carmo",
+      "email": "maria@123",
+      "phone": "987654321",
+      "password": "senha",
+      "balance": 1000.0
+    }
+  ]
+}
