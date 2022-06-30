@@ -1,15 +1,21 @@
-.container {
-    margin-top: 30px;
+body{
+
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/img/bg-site.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
-.add-car {
-    margin-bottom: 30px;
+.navbar{
+    background-color: rgb(45, 79, 107);
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
 }
 
-.list-car {
-    margin-bottom: 50px;
-}
-
-.btn-add-car {
-    margin-right: 10px;
+.container-fluid{
+    margin: 0;
+    padding: 0;
 }

@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpErrorResponse} from '@angular/common/http';
-import { Observable, throwError } from 'rxjs';
+import { HttpClient} from '@angular/common/http';
+import { Observable } from 'rxjs';
 
-import { ICar } from '../models/car';
+import { User } from '../models/car';
 import { BASE_URL } from 'src/environments/environment';
 
 
@@ -12,27 +12,12 @@ import { BASE_URL } from 'src/environments/environment';
 export class CarService {
 
 
-  constructor(private httpClient: HttpClient) { }
+  constructor(private http: HttpClient) { }
 
 
-  // Obtem todos os carros
-  getCars(){
-    return this.httpClient.get<ICar[]>(`${BASE_URL}cars`).toPromise();
-     
+  create(user: User): Observable<User>{
+    return this.http.post<User>(`${BASE_URL}produtos`, user)
   }
 
-  // Manipulação de erros
-  handleError(error: HttpErrorResponse) {
-    let errorMessage = '';
-    if (error.error instanceof ErrorEvent) {
-      // Erro ocorreu no lado do client
-      errorMessage = error.error.message;
-    } else {
-      // Erro ocorreu no lado do servidor
-      errorMessage = `Código do erro: ${error.status}, ` + `menssagem: ${error.message}`;
-    }
-    console.log(errorMessage);
-    return throwError(errorMessage);
-  };
 
 }

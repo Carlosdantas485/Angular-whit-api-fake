@@ -15,4 +15,4 @@ export const environment = {
  */
 // import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
 
-export const BASE_URL = 'http://localhost:3000/';
+export const API_PATH = "http://localhost:8080/"
